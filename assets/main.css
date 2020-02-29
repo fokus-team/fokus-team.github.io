@@ -1,0 +1,117 @@
+.ui.topbar.container {
+    padding-top: 1em;
+}
+
+.ui.topbar.container .dropdown > .menu {
+    width: 240px;
+}
+
+.ui.text.container {
+    pointer-events: none;
+}
+
+.logo-image {
+    margin-top: 0;
+    max-width: 200px;
+    animation: rotation-flower 3s ease-in-out;
+}
+
+@keyframes rotation-flower{
+    from {transform: rotate(0)}
+    to {transform: rotate(360deg)}
+}
+
+.ui.inverted.segment.masthead {
+    background: rgb(115,143,40);
+    background: linear-gradient(0deg, rgb(43, 161, 106) 0%, rgb(148, 196, 70) 100%);
+}
+
+.masthead.segment {
+    min-height: 600px;
+    padding: 0em;
+}
+
+.masthead h1.ui.header {
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 0 0 1.5em;
+}
+
+.masthead a.button {
+    pointer-events: all;
+    position: relative;
+    z-index: 2;
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border: 0 none;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe .image img {
+    max-width: 220px;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.footer.segment {
+    padding: 4em 0em;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .logo-image {
+        margin-top: 2em;
+        max-width: 120px;
+    }
+    .masthead.segment {
+        min-height: 420px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+    }
+    .masthead h2 {
+        margin-top: 0em;
+        font-size: 1.2em;
+    }
+    .ui.vertical.stripe p {
+        font-size: 1.15em;
+    }
+    .stackable.cards.link {
+        padding: 2em;
+    }
+    .ui.vertical.stripe {
+        padding: 4em 0em;
+    }
+    .footer.segment {
+        padding: 2em 0em;
+    }
+}
