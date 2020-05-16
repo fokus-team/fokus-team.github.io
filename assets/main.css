@@ -22,8 +22,8 @@
 }
 
 .ui.inverted.segment.masthead {
-    background: rgb(115,143,40);
-    background: linear-gradient(0deg, rgb(43, 161, 106) 0%, rgb(148, 196, 70) 100%);
+    background: rgb(20, 108, 190);
+    background: linear-gradient(0deg, rgb(20, 108, 190) 0%, rgb(16, 130, 175) 100%);
 }
 
 .masthead.segment {
@@ -84,6 +84,12 @@
 
 .footer.segment {
     padding: 4em 0em;
+}
+
+#sunflower {
+    width: 320px;
+    height: 320px;
+    margin: 10px auto -20px;
 }
 
 @media only screen and (max-width: 640px) {
