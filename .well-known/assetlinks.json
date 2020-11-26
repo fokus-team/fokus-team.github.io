@@ -1,0 +1,14 @@
+[
+	{
+		"relation": [
+			"delegate_permission/common.handle_all_urls"
+		],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "io.fokus",
+			"sha256_cert_fingerprints": [
+				"69:64:C8:B0:7A:F2:93:4E:9C:EA:2D:E8:D3:04:63:F4:F9:89:08:51:5B:98:AF:BC:CC:A5:5B:5A:84:60:82:D5"
+			]
+		}
+	}
+]
