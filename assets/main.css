@@ -10,25 +10,18 @@
     pointer-events: none;
 }
 
-.logo-image {
-    margin-top: 0;
-    max-width: 200px;
-    animation: rotation-flower 3s ease-in-out;
-}
-
 @keyframes rotation-flower{
     from {transform: rotate(0)}
     to {transform: rotate(360deg)}
 }
 
-.ui.inverted.segment.masthead {
+.ui.inverted.segment.masthead.gradient {
     background: rgb(20, 108, 190);
     background: linear-gradient(0deg, rgb(20, 108, 190) 0%, rgb(16, 130, 175) 100%);
 }
 
 .masthead.segment {
-    min-height: 600px;
-    padding: 0em;
+    padding: 0em 0em 2em 0em;
 }
 
 .masthead h1.ui.header {
@@ -47,6 +40,7 @@
     pointer-events: all;
     position: relative;
     z-index: 2;
+    margin-bottom: 0.6em;
 }
 
 .ui.secondary.inverted.pointing.menu {
@@ -94,12 +88,8 @@
 
 @media only screen and (max-width: 640px) {
 
-    .logo-image {
-        margin-top: 2em;
-        max-width: 120px;
-    }
     .masthead.segment {
-        min-height: 420px;
+        padding: 0em 0em 1em 0em;
     }
     .masthead h1.ui.header {
         font-size: 2em;
@@ -119,5 +109,10 @@
     }
     .footer.segment {
         padding: 2em 0em;
+    }
+    #sunflower {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto -10px;
     }
 }
